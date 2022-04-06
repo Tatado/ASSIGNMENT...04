@@ -1,0 +1,20 @@
+1.
+The __iter__ returns the iterator object and is implicitly called at the start of loops. 
+The __next__ method returns the next value and is implicitly called at each loop increment.
+2.
+To perform operator overloading, Python provides some special function or magic function that is automatically invoked
+ when it is associated with that particular operator.
+ For example, when we use + operator, 
+the magic method __add__ is automatically invoked in which the operation for + operator is defined.
+3.
+The slice() function returns a slice object. A slice object is used to specify how to slice a sequence.
+ You can specify where to start the slicing, and where to end. You can also specify the step,
+ which allows you to e.g. slice only every other item.
+4.
+when inplace = True , the data is modified in place, which means it will return nothing and the dataframe is now updated.
+ When inplace = False ,which is the default, 
+then the operation is performed and it returns a copy of the object.
+5.
+Operator overloading is mostly useful when you're making a new class that falls into an existing "Abstract Base Class" (ABC) -- indeed,
+ many of the ABCs in standard library module collections rely on the presence of certain special methods (and special methods,
+ one with names starting and ending with double underscores.
